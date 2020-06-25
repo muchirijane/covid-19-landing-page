@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+:root{
+    --color-green: #035755;
+    --color-red: #FF383D;
+}
+
+body{
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+}
+.navbar{
+    &-brand {
+        font-family: 'Red Hat Display', sans-serif;
+        text-transform: uppercase;
+        font-size: 2.2rem;
+        color: var(--color-green) !important;
+    }
+
+    &__btn-red{
+        color: var(--color-red);
+        border-radius: 2px solid var(--color-red) !important;
+    }
+}
+
+.nav-link {
+    font-size: 1.8rem;
+}
+
+a.nav-link.active{
+    color: var(--color-red);
+}
