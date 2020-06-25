@@ -1,3 +1,14 @@
+@import "../node_modules/bootstrap/scss/boostrap.scss";
 @import "base";
-@import "components/navbar";
-@import "components/header";
+@import "layout/navbar";
+@import "layout/header";
+@import "layout/aboutUs";
+@import "layout/contagion";
+@import "layout/symptoms";
+@import "layout/what-to-do";
+@import "layout/map";
+@import "layout/subscribe";
+@import "layout/footer";
+
+@import "components/button";
+@import "abstract/variables";

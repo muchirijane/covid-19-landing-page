@@ -22,6 +22,7 @@
     "postcss-cli": "^7.1.0"
   },
   "dependencies": {
-    "particles.js": "^2.0.0"
+    "bootstrap": "^5.0.0-alpha1",
+    "bootstrap-icons": "^1.0.0-alpha4"
   }
 }
