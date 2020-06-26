@@ -1,0 +1,13 @@
+.btn-red{
+    background: var(--color-red);
+    color: var(--color-white);
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 10rem;
+    padding: 2rem 5rem;
+
+    &:hover{
+        background: var(--color-green);
+        color: var(--color-white);
+    }
+}

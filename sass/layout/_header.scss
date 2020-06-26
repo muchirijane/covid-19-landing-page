@@ -1,6 +1,84 @@
+.title-small{
+    font-size: 2.2rem;
+    @extend %title;
+    color: var(--color-red);
+}
+.title-big{
+    @extend %title;
+    font-size: 3.8rem;
+    color: var(--color-green);
+
+}
 .header{
     height: 102.4rem;
     width: 100vw;
     //background: linear-gradient(0deg, rgba(255, 255, 255, 0) -29.64%, #FFF8F8 45.66%, #B57474 45.66%);
     background: url(../img/header-bg.png);
+
+    &-detail{
+        margin-top: 5rem;
+        position: relative;
+    }
+
+    &-text{
+        padding-top: 23rem;
+        padding-left: 15rem;
+        width: 84rem;
+
+        &-h2{
+            padding-bottom: 1rem;
+        }
+        &-h1{
+            padding-bottom: 2rem;
+            span{
+                display: block;
+            }
+        }
+
+        &__para{
+            font-size: 2.5rem;
+            padding-bottom: 3rem;
+        }
+    }
+
+    &-img{
+       
+       
+    }
+
+    &-svg{
+        &-sofa{
+            position:absolute;
+            // height: 65rem;
+            right: 90px;
+            
+        }
+        &-girl{
+            position: absolute;
+            right: 25rem;
+             top: 15rem;
+        }
+    }
+
+    &-virus{
+        position: absolute;
+        &-1{
+            height: 20rem;
+        }
+        &-2{
+            height: 12.7rem;
+            right: 61rem;
+            top: 18rem;
+        }
+        &-3{
+            top: 20px;
+            right: 20px;
+
+        }
+        &-4{
+            right: 0;
+            bottom: 10rem;
+
+        }
+    }
 }

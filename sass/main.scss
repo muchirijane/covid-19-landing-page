@@ -1,4 +1,4 @@
-@import "../node_modules/bootstrap/scss/boostrap.scss";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import "base";
 @import "layout/navbar";
 @import "layout/header";
@@ -12,3 +12,5 @@
 
 @import "components/button";
 @import "abstract/variables";
+@import "abstract/utilities"
+
