@@ -52,13 +52,15 @@
           </div>
         </div>
 
-        <div class="col-xxl-6 header-img">
-          <img src="img/illustration/circle-bg-1.svg" alt="Covid19 virus" class="header-virus header-virus-1">
-          <img src="img/illustration/circle-sm-1.svg" alt="Covid19 virus" class="header-virus header-virus-2">
-          <img src="img/illustration/circle-sm-2.svg" alt="Covid19 virus" class="header-virus header-virus-3">
-          <img src="img/illustration/circle-bg.svg" alt="Covid19 virus" class="header-virus header-virus-4">
-          <img src="img/illustration/Sofa & Lamp.svg" alt="sofa & lamp" class="header-virus header-svg-sofa">
-          <img src="img/illustration/Girl.svg" alt="girl" class="header-svg-girl">
+        <div class="col-xxl-6 header-img" id="header-img">
+          <div class="header-animation" id="header-animation">
+            <img src="img/illustration/circle-bg-1.svg" alt="Covid19 virus" class="header-virus header-virus-1" id="virus-1">
+            <img src="img/illustration/circle-sm-1.svg" alt="Covid19 virus" class="header-virus header-virus-2" id="virus-2">
+            <img src="img/illustration/circle-sm-2.svg" alt="Covid19 virus" class="header-virus header-virus-3" id="virus-3">
+            <img src="img/illustration/Sofa & Lamp.svg" alt="sofa & lamp" class="header-virus header-svg-sofa" id="sofa">
+            <img src="img/illustration/Girl.svg" alt="girl" class="header-svg-girl" id="girl">
+        </div>
+          <img src="img/illustration/circle-bg.svg" alt="Covid19 virus" class="header-virus header-virus-4" id="virus-4">
         </div>
     </div>
   </div>
@@ -66,5 +68,8 @@
 </header>
    <script src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+   <script src="./node_modules/gsap/dist/gsap.min.js"></script>
+
+   <script src="app.js"></script>
 </body>
 </html>
