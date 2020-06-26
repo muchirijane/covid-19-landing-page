@@ -1,0 +1,53 @@
+.about{
+    position: relative;
+
+    &-img{
+        width: 94rem;
+        position: relative;
+    }
+
+    &-virus{
+        position: absolute;
+
+        &-red{
+            left: 9rem;
+            top: 20rem;
+        }
+        &-yellow{
+            left: 30rem;
+            top: 38rem;
+        }
+        &-green{
+            left: 40rem;
+            top: 26rem;
+
+        }
+    }
+
+    &-detail{
+        margin-top: 20rem;
+
+        &-virus-1{
+            position: absolute;
+            right: 10rem;
+            bottom: -30rem;
+        }
+
+        &-virus-2{
+            position: absolute;
+            right: 0rem;
+            bottom: -20rem;
+        }
+    }
+
+    &-text{
+        width: 64.8rem;
+        margin-right: auto;
+        &__para{
+            font-size: 2rem;
+            line-height: 2;
+            margin: 3rem 0;
+            
+        }
+    }
+}

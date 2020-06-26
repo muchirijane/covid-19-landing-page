@@ -7074,7 +7074,9 @@ html {
   --color-red: #FB4C47;
   --color-green: #035755;
   --color-white: #fff;
-  --bs-red: #FB4C47; }
+  --bs-red: #FB4C47;
+  --light-red:  rgba(250, 86, 82, .15);
+  --light-green: rgba(3, 87, 85, 0.22); }
 
 body {
   line-height: 1.6;
@@ -7191,13 +7193,71 @@ body {
       right: 0;
       bottom: 10rem; }
 
+.about {
+  position: relative; }
+  .about-img {
+    width: 94rem;
+    position: relative; }
+  .about-virus {
+    position: absolute; }
+    .about-virus-red {
+      left: 9rem;
+      top: 20rem; }
+    .about-virus-yellow {
+      left: 30rem;
+      top: 38rem; }
+    .about-virus-green {
+      left: 40rem;
+      top: 26rem; }
+  .about-detail {
+    margin-top: 20rem; }
+    .about-detail-virus-1 {
+      position: absolute;
+      right: 10rem;
+      bottom: -30rem; }
+    .about-detail-virus-2 {
+      position: absolute;
+      right: 0rem;
+      bottom: -20rem; }
+  .about-text {
+    width: 64.8rem;
+    margin-right: auto; }
+    .about-text__para {
+      font-size: 2rem;
+      line-height: 2;
+      margin: 3rem 0; }
+
+.btn-red:active, .btn-pink:active {
+  transform: translateY(-0.5rem); }
+
 .btn-red {
   background: var(--color-red);
   color: var(--color-white);
   font-size: 2rem;
   font-weight: bold;
   border-radius: 10rem;
-  padding: 2rem 5rem; }
+  padding: 1.5rem 4rem;
+  transition: all .2s ease;
+  outline: none;
+  box-shadow: 0 4px 20px rgba(251, 76, 71, 0.49); }
   .btn-red:hover {
     background: var(--color-green);
-    color: var(--color-white); }
+    color: var(--color-white);
+    transform: translateY(1rem) scale(1.04);
+    box-shadow: 0 4px 20px rgba(3, 87, 85, 0.49); }
+
+.btn-pink {
+  background: var(--light-red);
+  color: var(--color-red);
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 10rem;
+  padding: 1.5rem 4rem;
+  transition: all .2s ease;
+  outline: none;
+  box-shadow: 0 4px 20px var(--light-red); }
+  .btn-pink:hover {
+    background: var(--light-green);
+    color: var(--color-green);
+    transform: translateY(1rem) scale(1.04);
+    box-shadow: 0 4px 20px var(--light-green); }

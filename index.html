@@ -12,60 +12,92 @@
 <body>
   <header class="header">
 
-    <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="#">
-        <img src="img/logo.svg" class="d-inline-block align- navbar-brand__img" alt="" loading="lazy">
-        Covid19
-      </a>
-      <button class="navbar-toggler navbar-menu-icon" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <!-- <i class="fas fa-bars navbar-menu-icon"></i> -->
-        <svg class="bi bi-list" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-        </svg>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ml-auto">
-            <a class="nav-link" aria-current="page" href="#">Overview</a>
-            <a class="nav-link" href="#">Contagion</a>
-            <a class="nav-link" href="#">Symptoms</a>
-            <a class="nav-link" href="#">Prevention</a>
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.svg" class="d-inline-block align- navbar-brand__img" alt="" loading="lazy">
+          Covid19
+        </a>
+        <button class="navbar-toggler navbar-menu-icon" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <i class="fas fa-bars navbar-menu-icon"></i> -->
+          <svg class="bi bi-list" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+              <a class="nav-link" aria-current="page" href="#">Overview</a>
+              <a class="nav-link" href="#">Contagion</a>
+              <a class="nav-link" href="#">Symptoms</a>
+              <a class="nav-link" href="#">Prevention</a>
+          </div>
+          <a  class="btn btn-nav">Contact</a>
         </div>
-        <a  class="btn btn-nav">Contact</a>
-      </div>
-    </nav>
+      </nav>
 
-    <div class="header-detail container-fluid">
-      <div class="row gx-5">
-        <div class="col-xxl-6 header-text">
-          <div class="header-text-titles">
-            <h2 class="header-text-h2 title-small">COVID-19 Alert</h2>
-            <h1 class="header-text-h1 title-big">
-              <span>Stay At Home Quarantine</span>
-              <span>To Stop Corona Virus</span>
+      <div class="header-detail container-fluid">
+        <div class="row gx-5">
+          <div class="col-xxl-6 header-text">
+            <div class="header-text-titles">
+              <h2 class="header-text-h2 title-small">COVID-19 Alert</h2>
+              <h1 class="header-text-h1 title-big">
+                <span>Stay At Home Quarantine</span>
+                <span>To Stop Corona Virus</span>
+              </h1>
+            </div>
+            <div class="header-text-box">
+              <p class="header-text__para">
+                There is no specific medicine to prevent or treat coronavirus disease (COVID-19). People may need supportive care to .
+              </p>
+              <a href="#" class="btn btn-red">Let Us Help</a>
+            </div>
+          </div>
+
+          <div class="col-xxl-6 header-img" id="header-img">
+            <div class="header-animation" id="header-animation">
+              <img src="img/illustration/circle-bg-1.svg" alt="Covid19 virus" class="header-virus header-virus-1" id="virus-1">
+              <img src="img/illustration/circle-sm-1.svg" alt="Covid19 virus" class="header-virus header-virus-2" id="virus-2">
+              <img src="img/illustration/circle-sm-2.svg" alt="Covid19 virus" class="header-virus header-virus-3" id="virus-3">
+              <img src="img/illustration/Sofa & Lamp.svg" alt="sofa & lamp" class="header-virus header-svg-sofa" id="sofa">
+              <img src="img/illustration/Girl.svg" alt="girl" class="header-svg-girl" id="girl">
+          </div>
+            <img src="img/illustration/circle-bg.svg" alt="Covid19 virus" class="header-virus header-virus-4" id="virus-4">
+          </div>
+      </div>
+    </div>
+
+  </header>
+
+  <section class="about container-fluid">
+    <div class="row">
+      <div class="about-img col-xxl-6" id="virus-images">
+        <img src="img/virus-bg.svg" alt="virus image" class="about-virus about-virus-bg" id="virus-bg">
+        <img src="img/red-virus.svg" alt="red virus" class="about-virus about-virus-red" id="virus-red">
+        <img src="img/yellow-virus.svg" alt="" class="about-virus about-virus-yellow" id="virus-yellow">
+        <img src="img/green-virus.svg" alt="green virus" class="about-virus about-virus-green" id ="virus-green">
+      </div>
+      <div class="about-detail col-xxl-6">
+        <div class=" about-text">
+          <div class="about-text-titles">
+            <h2 class="about-text-h2 title-small">What Is Covid-19</h2>
+            <h1 class="about-text-h1 title-big">
+              Coronavirus
             </h1>
           </div>
-          <div class="header-text-box">
-            <p class="header-text__para">
-              There is no specific medicine to prevent or treat coronavirus disease (COVID-19). People may need supportive care to .
+          <div class="about-text-box">
+            <p class="about-text__para">
+              Corona viruses are a type of virus. There are many different kinds, and some cause disease. 
+              A newly identified type has caused a recent outbreak of respiratory illness now called COVID-19.
+              Lauren Sauer, M.S., the director of operations with the Johns Hopkins Office of Critical Event Preparedness and Response
             </p>
-            <a href="#" class="btn btn-red">Let Us Help</a>
+            <a href="#" class="btn btn-pink">Learn More</a>
           </div>
         </div>
-
-        <div class="col-xxl-6 header-img" id="header-img">
-          <div class="header-animation" id="header-animation">
-            <img src="img/illustration/circle-bg-1.svg" alt="Covid19 virus" class="header-virus header-virus-1" id="virus-1">
-            <img src="img/illustration/circle-sm-1.svg" alt="Covid19 virus" class="header-virus header-virus-2" id="virus-2">
-            <img src="img/illustration/circle-sm-2.svg" alt="Covid19 virus" class="header-virus header-virus-3" id="virus-3">
-            <img src="img/illustration/Sofa & Lamp.svg" alt="sofa & lamp" class="header-virus header-svg-sofa" id="sofa">
-            <img src="img/illustration/Girl.svg" alt="girl" class="header-svg-girl" id="girl">
-        </div>
-          <img src="img/illustration/circle-bg.svg" alt="Covid19 virus" class="header-virus header-virus-4" id="virus-4">
-        </div>
-    </div>
+        <img src="img/light-virus-sm.svg" alt="covid19 virus image" class="about-detail-virus-1">
+        <img src="img/light-virus-bg.svg" alt="covid19 virus image" class="about-detail-virus-2">
+      </div>
   </div>
+  </section>
 
-</header>
    <script src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
    <script src="./node_modules/gsap/dist/gsap.min.js"></script>

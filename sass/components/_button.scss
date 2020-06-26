@@ -1,13 +1,54 @@
-.btn-red{
-    background: var(--color-red);
-    color: var(--color-white);
+@mixin button-shadow( $color){
+    box-shadow: 0 4px 20px $color;
+}
+
+@mixin button-styling($background-color, $color){
+    background: $background-color;
+    color: $color;
     font-size: 2rem;
     font-weight: bold;
     border-radius: 10rem;
-    padding: 2rem 5rem;
+    padding: 1.5rem 4rem;
+    transition: all .2s ease;
+    outline: none;
+
+}
+
+@mixin button-hover($background-color, $color){
+    background: $background-color;
+    color: $color;
+    transform:translateY(1rem) scale(1.04);
+}
+
+%button-active{
+    transform:translateY(-0.5rem);
+}
+
+.btn-red{
+    @include button-styling(var(--color-red), var(--color-white));
+    @include button-shadow(rgba(251, 76, 71, .49));
 
     &:hover{
-        background: var(--color-green);
-        color: var(--color-white);
+        @include button-hover(var(--color-green),var(--color-white) );
+        @include button-shadow(rgba(3, 87, 85, 0.49));
+    }
+    &:active{
+        @extend %button-active;
     }
 }
+
+.btn-pink{
+    @include button-styling(var(--light-red), var(--color-red));
+    @include button-shadow(var(--light-red));
+
+    &:hover{
+        @include button-hover(var(--light-green),var(--color-green) );
+        @include button-shadow(var(--light-green));
+    }
+    &:active{
+        @extend %button-active;
+    }
+}
+
+
+
