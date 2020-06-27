@@ -18,6 +18,7 @@ html{
     --bs-red: #FB4C47;
     --light-red:  rgba(250, 86, 82, .15);
     --light-green: rgba(3, 87, 85, 0.22);
+    --color-brown: #4B4F51;
 }
 
 body{
@@ -26,4 +27,5 @@ body{
     font-weight: 400;
     background: var(--background-color);
     font-size: 1.6rem;
+    color: var(--color-brown);
 }

@@ -1,0 +1,75 @@
+@mixin card-style{
+    width: 46rem;
+    height: 58rem;
+    background: var(--color-white);
+    box-shadow: 0px 5px 80px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    margin-right: 3rem;
+
+}
+.contagion{
+    position: relative;
+    text-align: center;
+    margin-top: 24rem;
+    margin-bottom: 15rem;
+
+    &-card{
+        margin: 0 23rem;
+    }
+
+    &-text{
+        margin-top: 2rem;
+        padding: 0 4rem;
+        margin-bottom: 10rem;
+
+        &__title{
+            font-size: 3.6rem;
+            color: var(--color-green);
+        }
+
+        &__para{
+            font-size: 1.8rem;
+        }
+        &-box{
+            margin: 2rem 57rem;
+        }
+
+        &__para{
+            @extend %text-para;
+        }
+       
+    }
+
+    &-card-box{
+        @include card-style;
+    }
+
+    &-img{
+        position: relative;
+        margin-top: 10rem;
+
+        &-content{
+            &-1{
+                position: absolute;
+                top: 1rem;
+                left: 13rem;
+            }
+            &-2{
+                position: absolute;
+                top: 4.5rem;
+                left: 8.3rem;
+            }
+            &-3{
+                position: absolute;
+                top: 4rem;
+                left: 17rem;
+            }
+        }
+    }
+
+    &-virus-img{
+        position: absolute;
+        z-index: -1;
+    }
+
+}

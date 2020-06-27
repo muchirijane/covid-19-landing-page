@@ -20,11 +20,18 @@ gsap.to("#girl", {duration: 4, y: 50, scale: 0.9,  ease: "sine.out", transformOr
 gsap.from("#virus-images", {duration: 3, scale: 0.5});
 gsap.to("#virus-images", {duration: 3, x: 0, scale: 1, ease: "sine.out",  repeat: -1});
 
-gsap.from("#virus-red", {duration: 3.5, scale: 0.5});
-gsap.to("#virus-red", {duration: 3.5, scale: 1, x: 0, ease: "sine.out",  rotation: 360, repeat: -1});
+gsap.from("#virus-red", {duration: 4, scale: 0.5});
+gsap.to("#virus-red", {duration: 4, scale: 1, x: 0, ease: "sine.out",  rotation: 360, repeat: -1});
 
 gsap.from("#virus-green", {duration: 3.7, scale: 0.5});
 gsap.to("#virus-green", {duration: 3.7, scale: 1, x: 0, ease: "sine.out",  rotation: 360, repeat: -1});
 
-gsap.from("#virus-yellow", {duration: 3.9, scale: 0.5});
-gsap.to("#virus-yellow", {duration: 3.9, scale: 1, x: 0, ease: "sine.out",  rotation: 360, repeat: -1});
+gsap.from("#virus-yellow", {duration: 4.4, scale: 0.5});
+gsap.to("#virus-yellow", {duration: 4.4, scale: 1, x: 0, ease: "sine.out",  rotation: 360, repeat: -1});
+
+gsap.from("#light-virus-1", {duration: 3, scale: 0.5});
+gsap.to("#light-virus-1", {duration: 3, x: 0, scale: 1, ease: "sine.out",  rotation: -360, repeat: -1});
+
+gsap.from("#light-virus-2", {duration: 3.8, y: 0, scale: 1});
+gsap.to("#light-virus-2", {duration: 3.8, scale: 1.2, y: 2, ease: "sine.out",   repeat: -1});
+
