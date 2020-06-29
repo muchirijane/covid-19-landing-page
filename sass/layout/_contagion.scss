@@ -32,7 +32,7 @@
             font-size: 1.8rem;
         }
         &-box{
-            margin: 2rem 57rem;
+           @extend %text-margin;
         }
 
         &__para{

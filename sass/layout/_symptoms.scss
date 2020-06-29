@@ -1,0 +1,24 @@
+.symptomps{
+    &-text{
+        text-align: center;
+        &-box{
+            @extend %text-margin;
+
+        }
+        &__para{
+            @extend %text-para;
+        }
+
+    }
+
+    &-img{
+        position: relative;
+        margin: 4rem 46rem;
+
+        &-detail{
+            position: absolute;
+            top: 6rem;
+            left: -16rem;
+        }
+    }
+}

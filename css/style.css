@@ -7237,8 +7237,6 @@ body {
       color: var(--color-green); }
     .contagion-text__para {
       font-size: 1.8rem; }
-    .contagion-text-box {
-      margin: 2rem 57rem; }
   .contagion-card-box {
     width: 46rem;
     height: 58rem;
@@ -7282,6 +7280,17 @@ body {
       z-index: -1;
       left: 3rem;
       bottom: 1rem; }
+
+.symptomps-text {
+  text-align: center; }
+
+.symptomps-img {
+  position: relative;
+  margin: 4rem 46rem; }
+  .symptomps-img-detail {
+    position: absolute;
+    top: 6rem;
+    left: -16rem; }
 
 .btn-red:active, .btn-pink:active {
   transform: translateY(-0.5rem); }
@@ -7327,7 +7336,11 @@ body {
   color: var(--color-green);
   margin-top: 2.6rem; }
 
-.contagion-text__para {
+.contagion-text__para, .symptomps-text__para {
   font-size: 2rem;
   line-height: 2;
   margin: 3rem 0; }
+
+.contagion-text-box, .symptomps-text-box {
+  margin: 2rem 57rem;
+  margin-bottom: 4rem; }
