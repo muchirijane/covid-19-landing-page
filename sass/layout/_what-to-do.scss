@@ -1,0 +1,64 @@
+.what-to-do{
+  
+    &-text{
+        text-align: center;
+        &-box{
+            @extend %text-margin;
+        }
+        &__para{
+            @extend %text-para;
+        }
+    }
+
+    &__span{
+        padding: 1rem;
+        background: var(--light-red);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        height: 7.5rem;
+        width: 7.5rem;
+        margin-right: 4rem;
+    }
+
+    &__box{
+        margin: 15rem 22rem;
+        display: flex;
+        align-items: center;
+        &-text{
+            width: 60rem;
+
+            &-reverse{
+                margin-left: auto;
+            }
+        }
+
+        &__para{
+            font-size: 1.8rem;
+            padding-top: 2rem;
+            margin-left: 10rem;
+            line-height: 2.2;
+        }
+
+        &-reverse{
+            flex-direction: row-reverse;
+        }
+    }
+    &__image{
+        position: relative;
+        margin-left: auto;
+
+
+        &-girl{
+            position: absolute;
+            top: -4rem;
+            left: 3rem;
+        }
+    }
+
+    &__image-reverse{
+        position: relative;
+        margin-right: auto;
+    }
+}

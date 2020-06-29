@@ -7171,7 +7171,7 @@ body {
   .header-svg-girl {
     position: absolute;
     right: 25rem;
-    top: 15rem; }
+    top: 20rem; }
   .header-virus {
     position: absolute; }
     .header-virus-1 {
@@ -7292,6 +7292,48 @@ body {
     top: 6rem;
     left: -16rem; }
 
+.what-to-do-text {
+  text-align: center; }
+
+.what-to-do__span {
+  padding: 1rem;
+  background: var(--light-red);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 7.5rem;
+  width: 7.5rem;
+  margin-right: 4rem; }
+
+.what-to-do__box {
+  margin: 15rem 22rem;
+  display: flex;
+  align-items: center; }
+  .what-to-do__box-text {
+    width: 60rem; }
+    .what-to-do__box-text-reverse {
+      margin-left: auto; }
+  .what-to-do__box__para {
+    font-size: 1.8rem;
+    padding-top: 2rem;
+    margin-left: 10rem;
+    line-height: 2.2; }
+  .what-to-do__box-reverse {
+    flex-direction: row-reverse; }
+
+.what-to-do__image {
+  position: relative;
+  margin-left: auto; }
+  .what-to-do__image-girl {
+    position: absolute;
+    top: -4rem;
+    left: 3rem; }
+
+.what-to-do__image-reverse {
+  position: relative;
+  margin-right: auto; }
+
 .btn-red:active, .btn-pink:active {
   transform: translateY(-0.5rem); }
 
@@ -7336,11 +7378,22 @@ body {
   color: var(--color-green);
   margin-top: 2.6rem; }
 
-.contagion-text__para, .symptomps-text__para {
+.contagion-text__para, .symptomps-text__para, .what-to-do-text__para {
   font-size: 2rem;
   line-height: 2;
   margin: 3rem 0; }
 
-.contagion-text-box, .symptomps-text-box {
+.contagion-text-box, .symptomps-text-box, .what-to-do-text-box {
   margin: 2rem 57rem;
   margin-bottom: 4rem; }
+
+.bold-number {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 4.4rem;
+  font-weight: 700;
+  color: var(--color-red); }
+
+.title-h3-bold {
+  font-size: 4.7rem;
+  font-weight: 700;
+  color: var(--color-green); }
